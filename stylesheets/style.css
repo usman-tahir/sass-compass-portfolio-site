@@ -84,4 +84,27 @@ img {
 /* line 20, ../sass/style.scss */
 h1 {
   font-family: Raleway, Georgia, serif;
+  font-size: 2.25em;
+  padding: 0 1em;
+}
+
+/* line 26, ../sass/style.scss */
+.header {
+  padding: 10em 0 14em;
+}
+/* line 28, ../sass/style.scss */
+.header h1 {
+  font-style: italic;
+}
+
+/* line 33, ../sass/style.scss */
+.avatar {
+  -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
 }

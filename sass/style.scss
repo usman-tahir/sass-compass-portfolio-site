@@ -19,4 +19,20 @@ img {
 
 h1 {
   font-family: Raleway, Georgia, serif;
+  font-size: 2.25em;
+  padding: 0 1em;
+}
+
+.header {
+  padding: 10em 0 14em;
+  h1 {
+    font-style: italic;
+  }
+}
+
+.avatar {
+  @include box-shadow(0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333);
+  @include border-radius(50px);
+  width: 100px;
+  height: 100px;
 }
