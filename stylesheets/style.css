@@ -63,7 +63,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 4, ../sass/style.scss */
+/* line 5, ../sass/style.scss */
 body {
+  text-align: center;
+  font: 1em / 1.5 Georgia, serif;
   color: #333;
+}
+
+/* line 11, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 15, ../sass/style.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 20, ../sass/style.scss */
+h1 {
+  font-family: Raleway, Georgia, serif;
 }
