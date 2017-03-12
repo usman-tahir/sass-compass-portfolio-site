@@ -77,3 +77,20 @@ h1 {
     }
   }
 }
+
+.mask {
+  position: absolute;
+  top: 0;
+  width: 4%;
+  height: 100%;
+}
+
+.mask-left {
+  left: 0;
+  @include background(linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)));
+}
+
+.mask-right {
+  right: 0;
+  @include background(linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
+}
