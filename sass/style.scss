@@ -94,3 +94,10 @@ h1 {
   right: 0;
   @include background(linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)));
 }
+
+.footer {
+  p {
+    color: #777;
+    padding: 0 1em;
+  }
+}
