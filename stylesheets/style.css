@@ -108,3 +108,53 @@ h1 {
   width: 100px;
   height: 100px;
 }
+
+/* line 40, ../sass/style.scss */
+.carousel {
+  position: relative;
+}
+
+/* line 44, ../sass/style.scss */
+.shots-container {
+  width: 100%;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  padding: 1em 0;
+}
+
+/* line 52, ../sass/style.scss */
+.shots {
+  overflow: hidden;
+  margin: 0;
+  padding: 0 2%;
+  width: 4420px;
+  min-height: 300px;
+}
+@media screen and (max-width: 450px) {
+  /* line 52, ../sass/style.scss */
+  .shots {
+    width: 3420px;
+    min-height: 250px;
+  }
+}
+/* line 64, ../sass/style.scss */
+.shots li {
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin: 0 10px;
+  padding: 10px;
+  background: #fff url("../img/loading.gif") 100px 50% no-repeat;
+  border: 1px solid #ddd;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+@media screen and (max-width: 450px) {
+  /* line 64, ../sass/style.scss */
+  .shots li {
+    width: 300px;
+    height: 225px;
+  }
+}
