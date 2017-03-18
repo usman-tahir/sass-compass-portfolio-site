@@ -169,3 +169,38 @@ h1 {
     color: #aaa;
   }
 }
+
+.social {
+  margin: 2em 0;
+  font-family: Helvetica, Arial, sans-serif;
+
+  li {
+    position: relative;
+    @include inline-block();
+    margin: 0.5em;
+    @include transition(all 0.15s ease);
+
+    &:hover {
+      @include scale(1.25);
+      color: white;
+    }
+
+    &:before {
+      position: absolute;
+      width: 2em;
+      margin-left: -1em;
+      top: 1.5em;
+      left: 50%;
+    }
+
+    a {
+      display: block;
+      color: inherit;
+      padding: 2.5em 1em 1em;
+      width: 6em;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

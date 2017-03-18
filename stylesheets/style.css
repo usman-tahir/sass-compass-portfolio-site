@@ -271,3 +271,49 @@ h1 {
   font-size: 0.85em;
   color: #aaa;
 }
+
+/* line 173, ../sass/style.scss */
+.social {
+  margin: 2em 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* line 177, ../sass/style.scss */
+.social li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin: 0.5em;
+  -moz-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+/* line 183, ../sass/style.scss */
+.social li:hover {
+  -moz-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+  color: white;
+}
+/* line 188, ../sass/style.scss */
+.social li:before {
+  position: absolute;
+  width: 2em;
+  margin-left: -1em;
+  top: 1.5em;
+  left: 50%;
+}
+/* line 196, ../sass/style.scss */
+.social li a {
+  display: block;
+  color: inherit;
+  padding: 2.5em 1em 1em;
+  width: 6em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
