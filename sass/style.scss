@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "variables";
 
 @font-face {
   font-family: 'icomoon';
@@ -202,5 +203,55 @@ h1 {
       white-space: nowrap;
       text-overflow: ellipsis;
     }
+  }
+}
+
+/* Twitter */
+.icon-twitter {
+  color: $twitter-color;
+
+  &:hover {
+    background: $twitter-color;
+  }
+}
+
+/* Instagram */
+.icon-instagram {
+  color: $instagram-color;
+
+  &:hover {
+    background: $instagram-color;
+  }
+}
+
+.icon-facebook {
+  color: $facebook-color;
+
+  &:hover {
+    background: $facebook-color;
+  }
+}
+
+.icon-google-plus {
+  color: $google-plus-color;
+
+  &:hover {
+    background: $google-plus-color;
+  }
+}
+
+.icon-dribbble {
+  color: $dribbble-color;
+
+  &:hover {
+    background: $dribbble-color;
+  }
+}
+
+.icon-youtube {
+  color: $youtube-color;
+
+  &:hover {
+    background: $youtube-color;
   }
 }
